@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+}
+
+.container{
+    background-color: #145d85;
+}
+   
+
+.landingOneimagen{
+    width: 50%;
+    height: 50%;
+}
+
+.imageHouse{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: #145d85;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.subtitleContainer{
+    margin-top: -10%;
+}
+
