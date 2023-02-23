@@ -5,6 +5,7 @@ import tengo from '../Assets/Landing/tengounacasa.svg'
 import logo from '../Assets/Landing/wallahouselogo.svg'
 import hero from '../Assets/Landing/hero-landing.svg'
 import Footer from "../Components/footer";
+import './landing.css';
 
 
 
@@ -12,10 +13,19 @@ const Landing = ()=> {
 return(
     <>
     <div>
-        <img src={logo} alt='logo' ></img>
-        <img src={hero} alt='hero' ></img>
-        <img src={quiero} alt='quiero'></img>
-        <img src={tengo} alt='quiero'></img>
+        <div id="header">
+            <img src={logo} alt='logo' ></img>
+        </div>
+        <br></br>
+        <div id="image">
+            <img src={hero} alt='hero' ></img>
+            <h2>Intercambio de Casas Vacacionales</h2>
+        </div>
+        <br></br>
+        <div id="select">
+            <img src={quiero} alt='quiero una casa'></img>
+            <img src={tengo} alt='tengo una casa'></img>
+        </div>    
     </div>
 <Footer />
 </>

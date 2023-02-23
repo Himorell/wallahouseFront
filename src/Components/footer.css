@@ -1,0 +1,153 @@
+*{
+    border: none;
+
+}
+
+footer {
+    text-align: center;
+    height: 10vh;
+    background-color: #F9D66A;
+    font-size: small;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#conteiner-1 {
+    background-color: #F9D66A;
+    color: white;
+    }
+
+    #enlaces{
+    background-color: #F9D66A;
+    }
+
+#enlaces p{
+    list-style: none;
+    line-height: 0.2vh;
+    margin-bottom: -3vh;
+    font-size: 30px;
+    text-align: center;
+    background-color: #F9D66A;
+    color: #066285;
+    }
+
+#enlaces a{
+    text-decoration: none;
+    color: white;
+    background-color: #F9D66A;
+    font-size: small;
+    color: #066285;
+    border: 0%;
+    text-align: center;
+    }
+
+#redes-footer {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #F9D66A;
+    border: none;
+    }
+
+#redes-footer img{
+    width: 3vh;
+    padding: 0.3vw;
+    background-color: #F9D66A;
+    border: none;
+    }
+
+#redes-footer a:hover{
+    text-decoration: none;
+    background-color: #F9D66A;
+    }
+
+#redes-footer h2{
+    color:#066285;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 0.5vh;
+    background-color: #F9D66A;
+    }
+
+#conteiner-2 {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    padding: 0;
+    font-size: 14px;
+    background-color: #F9D66A;
+    }
+
+#copyright {
+    padding-top: 0.5vh;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #F9D66A;
+    }
+
+#copyright p{
+    margin-top: 1vh;
+    color: #066285;
+    background-color: #F9D66A;
+    }
+
+#legal {
+    text-align: center;
+    background-color: #F9D66A;
+    }
+
+#politica, #privacidad, #cookies {
+    display:inline-block;
+    text-decoration: none;
+    color:#066285;
+    margin: 1vw;
+    background-color: #F9D66A;
+    margin-bottom: 1vh;
+    font-size: x-small;
+    }
+
+#legal a:hover{
+    border-bottom: white solid 3px;
+    background-color: #F9D66A;
+    }
+
+@media (min-width: 700px){
+    #container-1{
+        display: grid;
+        grid-template-columns: 2fr, 1fr;
+        
+    }
+
+    #enlaces {
+        padding-top: 0.005vh;
+    }
+
+    #enlaces p{
+        list-style: none;
+        text-align: center;
+        background-color: #F9D66A;
+        color: #066285;
+        }
+    
+    #redes-footer img{
+        width: 6vh;
+        padding: 0.3vw;
+        background-color: #F9D66A;
+        border: none;
+        }
+
+    #politica, #privacidad, #cookies {
+        display:inline-block;
+        text-decoration: none;
+        color:#066285;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        background-color: #F9D66A;
+        margin-bottom: 1vh;
+        font-size: small;
+        }
+    }
