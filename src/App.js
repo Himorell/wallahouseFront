@@ -1,10 +1,12 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Components/Layout';
 import Landing from './Pages/landing';
 import Main from './Pages/main';
-import ProductPage from './Pages/product-page';
+import HousePage from './Pages/housePage';
+import Dashboard from './Pages/dashboard';
 import Form from './Pages/form';
+
 
 
 const App = ()=> {
@@ -16,7 +18,8 @@ const App = ()=> {
         <Route path="/landing" element={<Landing />} />
         <Route path="/main" element={<Main />} />
         <Route path="/form" element={<Form />} />
-        <Route path="/product-page" element={<ProductPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/house-page" element={<HousePage />} />
     </Routes>
 </>
   );
