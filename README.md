@@ -82,12 +82,12 @@ You will need a text editor and perform the following steps:
 
 2. Go to the project directory
 ```bash
-  cd springfieldElementarySchool
+  cd wallahousefront
 ```
 
-3. Create a MySQL database named "springfieldelementaryschool"
+3. Create a MySQL database named "wallahousefront"
 
-4. Locate .env.example in the project and once there change the database name that comes by default for our database name (laravel for springfieldelementaryschool). After that, remove .example from the file name so its new name will be .env
+4. Locate .env.example in the project and once there change the database name that comes by default for our database name (laravel for wallahousefront). After that, remove .example from the file name so its new name will be .env
 
 5. Install dependencies
 ```bash
