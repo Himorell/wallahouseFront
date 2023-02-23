@@ -1,18 +1,39 @@
+.landingOnelogo{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
 
+.containerImage{
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
-containerButton{
+.imgHouse{
+    width: 100%;
+}
+
+.containerButton{
     display: flex;
     justify-content: center;
     align-content: space-around;
     gap: 7%;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 8%;
     padding-bottom: 5%;
 }
 
+
 h1{
-    color: #000000;
-    margin-top: -10%;
-    font-size: xx-large;
+    color: #145d85;
+    line-height: 1;
+    font-size: 3em;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.titleContainerHome{
+    margin-top: -15%;
 }
