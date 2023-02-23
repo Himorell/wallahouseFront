@@ -24,7 +24,7 @@ input, select {
 #price{
     width: 12vw;
     margin-left: 70vw;
-    text-align: right;
+    text-align: center;
 }
 
 #title, #description{
@@ -69,10 +69,84 @@ input, select {
     text-align: center;
     align-items: center;
     font-family: "Red Rose";
-    font-weight: bold;
     box-shadow: 3px 3px  rgba(0,0,0,0.5);
 }
 
+@media (min-width: 700px){
+
+    fieldset{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    input, textarea, select, option {
+        background-color: white;
+        font-family: "Red Rose";
+        font-size: medium;
+        margin: 0.6vh;
+        border-radius: 5px;
+    }
+
+    input, select {
+        height: 5vh;
+
+    }
+
+    #price{
+        width: 12vw;
+        margin-left: 58.3vw;
+        text-align: center;
+    }
+
+    #title, #description{
+        width: 70vw;
+    }
+
+    #category{
+        width: 70.3vw;
+    }
+
+    #bedrooms, #bathrooms, #persons {
+        width: 22.75vw;
+    }
+
+    #city, #province {
+        width: 34.55vw;
+    }
+
+    #exchangeP, #animalsP, #poolP, #termsP{
+        color:white;
+        font-family: "Red Rose";
+        font-size:small;
+        margin-top: -5vh;
+    }
+
+    #exchange, #animals, #pool, #terms{
+        height: 2vh;
+    }
+
+    #img{
+        height: 4.4vh;
+        width: 70vw;
+    }
+
+    #button{
+        text-align: center;
+    }
+
+    #submit, #reset{
+        background-color: #F9D66A;
+        margin-top: 3vh;
+        margin: 1vw;
+        text-align: center;
+        align-items: center;
+        font-family: "Red Rose";
+        box-shadow: 3px 3px  rgba(0,0,0,0.5);
+        width: 9vw;
+        border: #2D5871;
+    }
+
+}
 
 
 

@@ -1,12 +1,12 @@
 import { useForm } from 'react-hook-form';
 import '../App.css';
 import './form.css';
-import React, { useState } from 'react';
+import React from 'react';
 import houseHandler from '../Handler/houseHandler';
 import Footer from "../Components/footer";
 
 function Form() {
-  const { register, handleSubmit, formState: { errors }, setValue, getValues } = useForm();
+  const { register, handleSubmit, formState: { errors }, setValue } = useForm();
 
   const handleImageChange = (event) => {
     const picture = event.target.files[0];
