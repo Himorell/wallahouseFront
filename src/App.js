@@ -4,6 +4,7 @@ import Layout from './Components/Layout';
 import Landing from './Pages/landing';
 import Main from './Pages/main';
 import ProductPage from './Pages/product-page';
+import Profile from './Pages/profile';
 
 
 const App = ()=> {
@@ -15,6 +16,7 @@ const App = ()=> {
         <Route path="/landing" element={<Landing />} />
         <Route path="/main" element={<Main />} />
         <Route path="/product-page" element={<ProductPage />} />
+        <Route path="/profile" element={<Profile />} />
     </Routes>
 </>
   );
