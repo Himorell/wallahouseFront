@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import '../App.css';
 import quiero from '../Assets/Landing/quierounacasa.svg'
 import tengo from '../Assets/Landing/tengounacasa.svg'
