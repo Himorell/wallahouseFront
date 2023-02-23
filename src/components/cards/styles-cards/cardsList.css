@@ -17,6 +17,7 @@
 }
 
 @media screen and (max-width: 863px) {
+
 	.container-shop {
 		padding: 3%;
 	}
@@ -177,8 +178,8 @@ header.App-header {
 
 @media screen and (max-width: 863px) {
 	.item img {
-		width: 30%;
-		height: auto;
+		width: 40%;
+		height: 6.35%;
 		position:absolute;
 		object-fit: cover;
 		border-radius: 10px 0 0 10px;

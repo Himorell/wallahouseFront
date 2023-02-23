@@ -47,7 +47,7 @@ export const Header = ({
 												{product.nameProduct}
 											</p>
 											<span className='precio-producto-carrito'>
-												{product.price} €
+												{product.price} € por noche
 											</span>
 										</div>
 										
