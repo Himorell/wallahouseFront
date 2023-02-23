@@ -1,0 +1,75 @@
+*{
+    border: none;
+}
+
+
+fieldset  {
+    margin: 2vh;
+    margin: 2vw;
+}
+
+input, textarea, select, option {
+    background-color: white;
+    font-family: "Red Rose";
+    font-size:x-small;
+    margin: 0.6vh;
+    border-radius: 5px;
+}
+
+input, select {
+    height: 3.5vh;
+
+}
+
+#price{
+    width: 12vw;
+    margin-left: 70vw;
+    text-align: right;
+}
+
+#title, #description{
+    width: 80vw;
+}
+
+#category{
+    width: 81vw;
+}
+
+#bedrooms, #bathrooms, #persons {
+    width: 24.5vw;
+}
+
+#city, #province {
+    width: 38.5vw;
+}
+
+#exchangeP, #animalsP, #poolP, #termsP{
+    color:white;
+    font-family: "Red Rose";
+    font-size:small;
+    margin-top: -5vh;
+}
+
+#exchange, #animals, #pool, #terms{
+    height: 1.5vh;
+}
+
+#img{
+    height: 2.5vh;
+    width: 80vw;
+}
+
+#button{
+    text-align: center;
+}
+
+#submit, #reset{
+    background-color: #F9D66A;
+    margin-top: 3vh;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
