@@ -1,4 +1,6 @@
-<h1>Project: "School notes"</h1>
+<img style="width:250px; height:400px; margin:12px" src="public/css/img/imageAtomicD.png" align=center alt="Wallahouse Logo"/>
+
+<h1>Project: "Marketplace"</h1>
 
 <h2>1. Project description:</h2>
 <ul>
@@ -31,11 +33,13 @@
 
 | Name | Role | |
 | :--- | :---: | :---: |
-| Paloma Ruíz |  Scrum Master | https://github.com/birdsinyourgarden |
-| Alba Rus | Product Owner | https://github.com/Albaric0que |
-| Camila Ruíz  | Developer | https://github.com/camilaruiz17 |
+| Manu |  Scrum Master | https://github.com/ManuKovacicSG |
+| Carmen Trillo | Product Owner | https://github.com/Carmen-Trillo |
+| Ignacio  | Developer | https://github.com/Uriens |
 | Himorell Jaramillo | Developer | https://github.com/Himorell |
-| Raquel Palomo | Developer| https://github.com/raquel2002x|
+| Adria Gomez| Developer| https://github.com/adria15gomez|
+| Gabriel | Developer | https://github.com/GabriMF |
+| Andrea | Developer| https://github.com/CodeMincer|
 
 
 <h2>4. Atomic Design</h2> 
@@ -46,7 +50,7 @@
 <h2>5. Final Design</h2> 
 <div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
 
-| Login |  Home View |  Student View |  Student Show View | Score View |
+| Login |  Home View |  Client View |  User Show View | User View |
 | --- | --- | --- | --- | --- |
 | <img style="width:150px;" src="public/css/img/imageLogin.png" alt="Login"/> | <img style="width:150px;" src="public/css/img/homeView.png" alt=""/> | <img style="width:150px;" src="public/css/img/studentView.png" alt=""/> |  <img style="width:150px;" src="public/css/img/studentShowView.png"/> | <img style="width:150px;" src="public/css/img/scoreView2.png"/> |
 
