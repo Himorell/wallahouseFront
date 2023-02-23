@@ -5,6 +5,7 @@ import tengo from '../Assets/Landing/tengounacasa.svg'
 import logo from '../Assets/Landing/wallahouselogo.svg'
 import hero from '../Assets/Landing/hero-landing.svg'
 import Footer from "../Components/footer";
+import { Link } from 'react-router-dom';
 import './landing.css';
 
 
@@ -23,8 +24,10 @@ return(
         </div>
         <br></br>
         <div id="select">
-            <img src={quiero} alt='quiero una casa'></img>
-            <img src={tengo} alt='tengo una casa'></img>
+            <Link to="/main"> <img src={quiero} alt='quiero una casa'></img>
+            </Link>
+            <Link to="/form"><img src={tengo} alt='tengo una casa'></img>
+            </Link>
         </div>    
     </div>
 <Footer />
