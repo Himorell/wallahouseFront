@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+<h1>Project: "School notes"</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>1. Project description:</h2>
+<ul>
+<li>The client is a school that has asked us for an app to manage its students data and scores.</li>
+<li>Students will be able to view their exams marks.</li>
+<li>Their teacher will be able to add, modify and delete both students and their marks.</li>
+</ul>
 
-## Available Scripts
+<h2>2. User stories:</h2>
 
-In the project directory, you can run:
+<h3>2.1 User Story (User):</h3>
+<ul>
+<li>See the page.</li>
+<li>They can see their marks.</li>
+<li>They can see their information.</li>
+</ul>
 
-### `npm start`
+<h3>2.2 User Story (Administrator):</h3>
+<ul>
+<li>View the app as admin.</li>
+<li>Access their student information and marks.</li>
+<li>Add new students and marks.</li>
+<li>Delete students and marks.</li>
+<li>Edit students and marks.</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 3. Team Members
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Name | Role | |
+| :--- | :---: | :---: |
+| Paloma Ruíz |  Scrum Master | https://github.com/birdsinyourgarden |
+| Alba Rus | Product Owner | https://github.com/Albaric0que |
+| Camila Ruíz  | Developer | https://github.com/camilaruiz17 |
+| Himorell Jaramillo | Developer | https://github.com/Himorell |
+| Raquel Palomo | Developer| https://github.com/raquel2002x|
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>4. Atomic Design</h2> 
+<div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
+<img style="width:250px; height:400px; margin:12px" src="public/css/img/imageAtomicD.png" alt="Atomic Design"/>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>5. Final Design</h2> 
+<div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Login |  Home View |  Student View |  Student Show View | Score View |
+| --- | --- | --- | --- | --- |
+| <img style="width:150px;" src="public/css/img/imageLogin.png" alt="Login"/> | <img style="width:150px;" src="public/css/img/homeView.png" alt=""/> | <img style="width:150px;" src="public/css/img/studentView.png" alt=""/> |  <img style="width:150px;" src="public/css/img/studentShowView.png"/> | <img style="width:150px;" src="public/css/img/scoreView2.png"/> |
 
-### `npm run eject`
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>6. Stacks</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>PHP 8.1.10</li>
+<li>Laravel</li>
+<li>Boostrap 5</li>
+<li>DrawSQL</li>
+<li>MySQL</li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h2>7. Required:</h2>
+<li>Composer & Laravel Installed</li>
+<li>XAMPP/LAMPP Installed</li>
+<li>NPM Installed</li>
+<li>MySQL</li>
+<li>PHP</li>
+<li>PHP Artisan Serve</li>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2>8. How to install this project:</h2>
 
-## Learn More
+You will need a text editor and perform the following steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the project
+```bash
+  git clone https://github.com/Himorell/springfieldElementarySchool
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Go to the project directory
+```bash
+  cd springfieldElementarySchool
+```
 
-### Code Splitting
+3. Create a MySQL database named "springfieldelementaryschool"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Locate .env.example in the project and once there change the database name that comes by default for our database name (laravel for springfieldelementaryschool). After that, remove .example from the file name so its new name will be .env
 
-### Analyzing the Bundle Size
+5. Install dependencies
+```bash
+  npm install
+```
+```bash
+  composer install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. Activate the server and keep this terminal open
+```bash
+  npm run dev
+```
 
-### Making a Progressive Web App
+7. Run the PHP server and keep this terminal open
+```bash
+  php artisan serve
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+8. Import database
+```bash
+  php artisan migrate:fresh --seed
+```
 
-### Advanced Configuration
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ <h2>9. Tests</h2>
 
-### Deployment
+To run the php tests, execute the following command(s)
+```bash
+  php artisan test
+```
+<img width="259" alt="Screenshot test" src="public/css/img/phpTest.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+To run the vendor tests, execute the following command(s)
+```bash
+  vendor/bin/phpunit
+```
+<img width="259" alt="Screenshot test" src="public/css/img/vendorTest.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<h2>10. Methodology:</h2>
+<ul>
+<li>Mob programming.</li>
+<li>Pair programming.</li>
+<li>Agile with SCRUM</li>
+<li>TDD</li>
+</ul>
+
+
+<h2>11. Next Steps</h2>
+<ul>
+<li>Conexión Cloudinary con BBDD.</li>
+<li>Cerrar trimestre y año escolar.</li>
+<li>Vista por asignaturas.</li>
+<li>Enviar email de notas y recuperación.</li>
+<li>Test de notas.</li>
+<li>Mejorar el estilo de las vistas.</li>
+<li>En portada mostrar todo el alumnado con las asignaturas y sus notas y con la media por trimestre.
+</li>
+<li>Integrar roles y permisos para la gestión de notas
+</li>
+
+</ul> 
+
