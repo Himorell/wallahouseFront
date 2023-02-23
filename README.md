@@ -1,12 +1,12 @@
-<img style="width:250px; height:400px; margin:12px" src="public/css/img/imageAtomicD.png" align=center alt="Wallahouse Logo"/>
-
-<h1>Project: "Marketplace"</h1>
+<div align="center">
+<img style="width:250px; height:200px; margin:12px" src="src/Assets/Landing/wallahouselogo.svg"  alt="Wallahouse Logo"/>
+</div>
+  
+<h1 align="center">Project: "Marketplace"</h1>
 
 <h2>1. Project description:</h2>
 <ul>
-<li>The client is a school that has asked us for an app to manage its students data and scores.</li>
-<li>Students will be able to view their exams marks.</li>
-<li>Their teacher will be able to add, modify and delete both students and their marks.</li>
+<li>The project consists of users who are looking for an economical and alternative short-term vacation rental to find through Wallahouse a marketplace that shows properties that clients wish to publish their properties for exchange or short-term rental</li>
 </ul>
 
 <h2>2. User stories:</h2>
@@ -14,20 +14,15 @@
 <h3>2.1 User Story (User):</h3>
 <ul>
 <li>See the page.</li>
-<li>They can see their marks.</li>
+<li>They can see a list short-term vacation rental home .</li>
 <li>They can see their information.</li>
 </ul>
 
-<h3>2.2 User Story (Administrator):</h3>
+<h3>2.2 User Story (Client):</h3>
 <ul>
-<li>View the app as admin.</li>
-<li>Access their student information and marks.</li>
-<li>Add new students and marks.</li>
-<li>Delete students and marks.</li>
-<li>Edit students and marks.</li>
+<li>clients can to publish their properties for exchange or short-term rental.</li>
+<li>clients can see their properties for exchange or short-term rental in Home View.</li>
 </ul>
-
-
 
 ## 3. Team Members
 
@@ -62,11 +57,10 @@
 <li>HTML5</li>
 <li>CSS3</li>
 <li>JavaScript</li>
+<li>React</li>
 <li>PHP 8.1.10</li>
 <li>Laravel</li>
 <li>Boostrap 5</li>
-<li>DrawSQL</li>
-<li>MySQL</li>
 </ul>
 
 <h2>7. Required:</h2>
@@ -147,16 +141,14 @@ To run the vendor tests, execute the following command(s)
 
 <h2>11. Next Steps</h2>
 <ul>
-<li>Conexión Cloudinary con BBDD.</li>
-<li>Cerrar trimestre y año escolar.</li>
-<li>Vista por asignaturas.</li>
-<li>Enviar email de notas y recuperación.</li>
-<li>Test de notas.</li>
-<li>Mejorar el estilo de las vistas.</li>
-<li>En portada mostrar todo el alumnado con las asignaturas y sus notas y con la media por trimestre.
-</li>
-<li>Integrar roles y permisos para la gestión de notas
-</li>
+<li>.</li>
+<li></li>
+<li</li>
+<li></li>
+<li>Test.</li>
+<li></li>
+<li></li>
+<li></li>
 
 </ul> 
 
