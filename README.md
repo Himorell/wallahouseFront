@@ -77,7 +77,7 @@ You will need a text editor and perform the following steps:
 
 1. Clone the project
 ```bash
-  git clone https://github.com/Himorell/wallahousefront
+  git clone https://github.com/Himorell/wallahouseFront
 ```
 
 2. Go to the project directory
