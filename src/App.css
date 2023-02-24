@@ -6,6 +6,11 @@
   background-color: #2D5871;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .App {
   text-align: center;
 }

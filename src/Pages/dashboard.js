@@ -14,7 +14,7 @@ function Dashboard() {
     }, []);
 
     return (
-      <>
+    <>
         <div >
         {data && (
             
@@ -28,8 +28,8 @@ function Dashboard() {
                     <p>Provincia: {item.province}</p>
                     <img src={item.img} alt={item.title} />
                     <div className="houseCard">
-                      <Link className="house--link" to={`/house-page/${item.id}`}>
-                      <p>VER MÁS</p>
+                        <Link className="house--link" to={`/house-page/${item.id}`}>
+                        <p>VER MÁS</p>
                     </Link>
                     </div>
                 </div>

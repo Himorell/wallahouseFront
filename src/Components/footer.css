@@ -24,8 +24,7 @@ footer {
 
 #enlaces p{
     list-style: none;
-    line-height: 0.2vh;
-    margin-bottom: -3vh;
+    line-height: 1vh;
     font-size: 30px;
     text-align: center;
     background-color: #F9D66A;
@@ -44,17 +43,17 @@ footer {
 
 #redes-footer {
     text-align: center;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
     background-color: #F9D66A;
     border: none;
     }
 
 #redes-footer img{
     width: 3vh;
-    padding: 0.3vw;
     background-color: #F9D66A;
     border: none;
+    padding-bottom: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
     }
 
 #redes-footer a:hover{
@@ -67,8 +66,8 @@ footer {
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 0.5vh;
+    margin-top: 1.5vh;
+    margin-bottom: -3.5vh;
     background-color: #F9D66A;
     }
 
@@ -93,6 +92,7 @@ footer {
     margin-top: 1vh;
     color: #066285;
     background-color: #F9D66A;
+    font-size: smaller;
     }
 
 #legal {
