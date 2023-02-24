@@ -1,0 +1,44 @@
+*{
+    overflow-y: scroll;
+    text-align: center;
+    margin:auto;
+}
+
+#dashboard{
+    width: 80vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    border: 2px solid #F9D66A;
+    color: white;
+}
+
+#dashboard h2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#dashboard p {
+    font-size: larger;
+}
+
+#dashboard img {
+    width: 80vw;
+    max-height:  30vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+@media (min-width: 700px){
+    #dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    #dashboard img {
+        width: 30vw;
+        max-height:  40vh;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    
+}
