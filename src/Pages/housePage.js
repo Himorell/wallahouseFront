@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import houseHandler from '../Handler/houseHandler';
 import Footer from "../Components/footer";
 import './housePage.css';
+import { Link } from 'react-router-dom';
 
 function HousePage() {
   const { id } = useParams();
@@ -46,6 +47,7 @@ console.log(description)
           * Contactar con el dueño
         </a>
       </div>
+      <Link to="/dashboard"><input id="return" type="button" value="VOLVER" /></Link>
     </div>
     <br></br>
     <Footer />

@@ -49,9 +49,32 @@ p{
     margin-bottom: 5vh;
 }
 
+#return{
+    background-color: #F9D66A;
+    margin-top: 3vh;
+    text-align: center;
+    align-items: center;
+    font-family: "Red Rose";
+    width: 15vw;
+    color: #2D5871;
+    box-shadow: 3px 3px  rgba(0,0,0,0.5);
+}
+
 @media (min-width: 700px){
     img{
     width: 50vw;
     max-height:  60vh;
+    }
+
+    #return{
+        background-color: #F9D66A;
+        margin-top: 3vh;
+        margin: 1vw;
+        text-align: center;
+        align-items: center;
+        font-family: "Red Rose";
+        box-shadow: 3px 3px  rgba(0,0,0,0.5);
+        width: 15vw;
+        border: #2D5871;
     }
 }
