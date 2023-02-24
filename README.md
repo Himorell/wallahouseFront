@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<div align="center">
+<img style="width:250px; height:200px; margin:12px" src="src/Assets/Landing/wallahouselogo.svg"  alt="Wallahouse Logo"/>
+</div>
+  
+<h1 align="center">Project: "Marketplace"</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>1. Project description:</h2>
+<ul>
+<li>The project consists of users who are looking for an economical and alternative short-term vacation rental to find through Wallahouse a marketplace that shows properties that clients wish to publish their properties for exchange or short-term rental</li>
+</ul>
 
-## Available Scripts
+<h2>2. User stories:</h2>
 
-In the project directory, you can run:
+<h3>2.1 User Story (User):</h3>
+<ul>
+<li>See the page.</li>
+<li>They can see a list short-term vacation rental home .</li>
+<li>They can see their information.</li>
+</ul>
 
-### `npm start`
+<h3>2.2 User Story (Client):</h3>
+<ul>
+<li>clients can to publish their properties for exchange or short-term rental.</li>
+<li>clients can see their properties for exchange or short-term rental in Home View.</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 3. Team Members
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Name | Role | |
+| :--- | :---: | :---: |
+| Manu |  Scrum Master | https://github.com/ManuKovacicSG |
+| Carmen Trillo | Product Owner | https://github.com/Carmen-Trillo |
+| Ignacio  | Developer | https://github.com/Uriens |
+| Himorell Jaramillo | Developer | https://github.com/Himorell |
+| Adria Gomez| Developer| https://github.com/adria15gomez|
+| Gabriel | Developer | https://github.com/GabriMF |
+| Andrea | Developer| https://github.com/CodeMincer|
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>4. Stacks</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>React</li>
+<li>PHP 8.1.10</li>
+<li>Laravel</li>
+<li>Boostrap 5</li>
+</ul>
 
-### `npm run build`
+<h2>5. Required:</h2>
+<li>Composer & Laravel Installed</li>
+<li>XAMPP/LAMPP Installed</li>
+<li>NPM Installed</li>
+<li>MySQL</li>
+<li>PHP</li>
+<li>PHP Artisan Serve</li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>6. How to install this project:</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You will need a text editor and perform the following steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the project
+```bash
+  git clone https://github.com/Himorell/wallahouseFront
+```
 
-### `npm run eject`
+2. Go to the project directory
+```bash
+  cd wallahousefront
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Locate .env.example in the project and once there change the database name that comes by default for our database name (laravel for wallahousefront). After that, remove .example from the file name so its new name will be .env
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Install dependencies
+```bash
+  npm install
+```
+```bash
+  composer install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Activate the server and keep this terminal open
+```bash
+  npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2>7. Methodology:</h2>
+<ul>
+<li>Mob programming.</li>
+<li>Pair programming.</li>
+<li>Agile with SCRUM</li>
+<li>TDD</li>
+</ul>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2>8. Next Steps</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
