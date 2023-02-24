@@ -4,6 +4,7 @@ import './form.css';
 import React from 'react';
 import houseHandler from '../Handler/houseHandler';
 import Footer from "../Components/footer";
+import { Link } from 'react-router-dom';
 
 function Form() {
   const { register, handleSubmit, formState: { errors }, setValue } = useForm();
@@ -80,7 +81,7 @@ function Form() {
           {errors.city && <span>Indíquenos su localidad</span>}
 
           <br></br>
-          
+
           <label htmlFor="province" id="province">Provincia</label>
           <input id="province" placeholder='Provincia'{...register("province", { required: true })} />
           {errors.province && <span>Indíquenos su provincia</span>}
@@ -117,6 +118,10 @@ function Form() {
           <div id="button">
           <input id="submit" type="submit" value="GUARDAR" />
           <input id="reset" type="reset" value="LIMPIAR" />
+          <div>
+          <Link to="/landing"><input id="return" type="button" value="VOLVER" /></Link>
+
+    </div>
           </div>
         </fieldset>
 

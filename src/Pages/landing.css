@@ -11,15 +11,20 @@
 #image h2{
     position: relative;
     font-size: medium;
-    margin-top: -5vh;
-    margin-bottom: 5vh;
+    margin-top: -6.5vh;
     background-color: #f9d56a00;
     text-align: center;
     color: #066285;
+    text-transform: uppercase;
+}
+
+#image img{
+    width: 100vw;
 }
 
 #select {
     text-align: center;
+    margin-bottom: 4vh;
 }
 
 #select img{
@@ -33,7 +38,7 @@
     }
 
     #image img{
-        width: 60vw;
+        width: 100vw;
         }
 
     #image h2{
@@ -49,6 +54,12 @@
     #select {
         text-align: center;
         margin-bottom: 3vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         }
+
+    #select img{
+        width: 20vw;
+    }
 
 }
