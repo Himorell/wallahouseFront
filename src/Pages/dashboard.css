@@ -38,6 +38,12 @@
     color: #F9D66A;
 }
 
+#return{
+    width: 15vh;
+    font-size: large;
+    margin-bottom: 5vh;
+}
+
 @media (min-width: 700px){
     #dashboard{
     display: grid;

@@ -34,9 +34,11 @@ function Dashboard() {
                     </div>
                 </div>
             ))}
+            
             </div>
+            
         )}
-        
+        <Link to="/landing"><input id="return" type="button" value="VOLVER" /></Link>
     </div>
     <Footer />
     </>

@@ -24,7 +24,7 @@ return(
         </div>
         <br></br>
         <div id="select">
-            <Link to="/main"> <img src={quiero} alt='quiero una casa'></img>
+            <Link to="/dashboard"> <img src={quiero} alt='quiero una casa'></img>
             </Link>
             <Link to="/form"><img src={tengo} alt='tengo una casa'></img>
             </Link>
